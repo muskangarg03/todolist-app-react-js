@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
+body{margin-top:20px;
+background:#eee;
+}	
+#page-wrapper {
+    padding: 25px 50px;
+}   
+                 
+  
+
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -8,11 +18,11 @@
 }
 
 body {
-  background: #8758ff;
+  background: #f5d3ff;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; 
+} 
 
 .App {
   text-align: center;
@@ -25,7 +35,7 @@ h1 {
 }
 
 .TodoWrapper {
-  background: #1A1A40;
+  background: #66226d;
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
@@ -39,7 +49,7 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #8758ff;
+  border: 1px solid #7541f7;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -89,4 +99,60 @@ h1 {
 .delete-icon {
   cursor: pointer;
 }
- 
+* {
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ .navbar {
+
+  border-bottom: 20px solid #118ab2;
+} 
+
+
+.navbar a:hover {
+
+  text-shadow: 2px 2px 3px white;
+  font: 1rem italic;
+}
+
+.body {
+
+  background-color: linear-gradient(from top right red rgb(122, 8, 29) );
+}
+
+#author img {
+
+  margin-top: -40px;
+  height: 150px;
+  width: 150px;
+}
+
+#author .fab {
+
+  color: white;
+}
+
+.google-map {
+  position: relative;
+  height: 50;
+  overflow: hidden;
+  padding-bottom: 50%; /* You can adjust this percentage to control the map's height */
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.google-map iframe {
+  position: absolute;
+  top: 20px;
+  left: 210px;
+  width: 72%;
+  height: 80%;
+}
+.navbar {
+
+  border-bottom: 5px solid #4dc9f2;
+}
+
